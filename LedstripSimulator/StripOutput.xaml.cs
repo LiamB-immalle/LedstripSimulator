@@ -10,15 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace LedstripSimulator
 {
-
-    public partial class MainWindow : Window
+    /// <summary>
+    /// Interaction logic for StripOutput.xaml
+    /// </summary>
+    public partial class StripOutput : Window
     {
-        public MainWindow()
+        public StripOutput()
         {
             InitializeComponent();
         }
